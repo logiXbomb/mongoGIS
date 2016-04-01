@@ -1,0 +1,40 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+#map {
+  position:absolute;
+  top:0;
+  bottom:0;
+  width:100%;
+}
+
+.menu {
+  position: absolute;
+  z-index: 999999999999;
+  &:children {
+    float: left
+  }
+}
+
+.count {
+  color: green;
+  padding: 15px;
+  border: solid 2px grey;
+  border-radius: 5px;
+  background-color: #D4D4D4;
+}
+
+ul {
+  padding-left: 0;
+  li {
+    list-style: none;
+    background-color: #fcfcfc;
+    border: solid 1px;
+    margin-top: 2px;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+}
